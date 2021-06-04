@@ -5,7 +5,7 @@ import CakeOutlinedIcon from '@material-ui/icons/CakeOutlined';
 import MailIcon from '@material-ui/icons/Mail';
 
 const Profile=()=>{
-const paperStyle={padding:40,height:'60vh',width:270,margin:"20px auto",background:'#c5cae9'}
+const paperStyle={padding:40,height:'60vh',width:270,margin:"20px auto",background:'grey'}
 const btnStyle={margin:'6px 0'}
 const divstyle={color:'grey'}
 return(
@@ -41,7 +41,6 @@ return(
         <MailIcon/>
         <div>ABC123@gmail.com</div>
         </div>
-        <Button variant="contained" type='submit' color='#3f51b5' style={btnStyle}fullWidth>Edit Profile </Button>
     </Paper>
     </Grid>  
 )
